@@ -2,109 +2,132 @@
 <html lang="en-us">
   <head>
     <title>Freelancer</title>
-    <link rel="stylesheet" href="css/stylesheet.css"></link>
     <link rel="stylesheet" href="css/reset.css"></link>
+    <link rel="stylesheet" href="css/stylesheet.css"></link>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
 
   <body>  <!--header-->
-    <div class="header">
-      <div class="bg_img" style="background-image: url('pix/img.jpg')">
-        <div class="logo">
-        </div>
-        <div class="topnav">
-          <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-          <div class="nav_icons">
+    <div class="header" style="background-image: url('images/bg-img.png')">
+      <div class="sub-header">
+        <div class="nav">
+          <div class="logo">
             <a href="#">
-              <img src="pix/twt.png" />
+              <img src="images/logo.png" />
             </a>
-            <a href="#">
-              <img src="pix/fb.png" />
-            </a>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="nav_icons">
+              <a href="https://twitter.com">
+                <img src="images/twitter_red.png" />
+              </a>
+              <a href="https://facebook.com">
+                <img src="images/fb_red.png" />
+              </a>
+            </div>
           </div>
         </div>
         <div class="quotes">
-          <h1>INTELLIGENCE IS NOTHING WITHOUT AMBITION<span>.</span></h1>
-          <h4>We're small but impressive creative agency.</h4>
+          <div>
+            <h1 class="title"><span>Intelligence</span> <span>is nothing without</span><span> ambition<span class="period">.</span></span></h1>
+            <h4 class="title">We're small but impressive creative agency.</h4>
+            <a href="#">Read more</a>
+          </div>
         </div>
-        <button class="btn">READ MORE</button>
       </div>
     </div>
 
     <div class="snippets"> <!--snippets-->
-      <div class="snip1"><h1>PEACE OF MIND<span>.</span></h1>
-        <p>You're safe with us. The privacy and security of your financial information is our top priority.</p>
-        <button>MORE →</button>
-      </div>
       <div class="snip1">
-        <h1>FREE<span>.</span> ACTUALLY FREE</h1>
-        <p>No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</p>
-        <button>MORE →</button>
+        <h1 class="subtitle"><span>Peace</span><span> of mind<span class="period">.</span></span></h1>
+        <p class="content">You're safe with us. The privacy and security of your financial information is our top priority.</p>
+        <a href="#" class="more">more →</a>
       </div>
+
       <div class="snip1">
-        <h1>SIMPLYPAYMENTS<span>.</span></h1>
-        <p>The same debit card you use to buy coffee lets deposit money straight to your bank account</p>
-        <button>MORE →</button>
+        <h1 class="subtitle"><span>Free<span class="period">.</span></span> <span>Actually Free</span></h1>
+        <p class="content">No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.</p>
+        <a href="#" class="more">more →</a>
+      </div>
+
+      <div class="snip1">
+        <h1 class="subtitle"><span>Simply</span><span> Payments<span class="period">.</span></span></h1>
+        <p class="content">The same debit card you use to buy coffee lets deposit money straight to your bank account</p>
+        <a href="#" class="more">more →</a>
       </div>
     </div>
 
-    <div class="portfolio" style="background-image: url('pix/macbook.png')"> <!--portfolio-->
+    <div class="portfolio" style="background-image: url('images/macbook.png')"> <!--portfolio-->
       <div class="port1">
-        <h1>PORTFOLIO<span>.</span></h1>
-        <h4>We are small, but strong team.</h4>
-        <p>No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks. The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
-        <button>MORE →</button>
+        <h1 class="title">Portfolio<span class="period">.</span></h1>
+        <h4 class="title">We are small, but strong team.</h4>
+        <p class="content">No more pricing grids. No more fine print.</p>
+        <p class="content">Sending and receiving cash is free without gimmicks.</p>
+        <p class="content">The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
+        <a href="#" class="more">more →</a>
       </div>
     </div>
 
     <div class="team"> <!--team-->
       <div class="descrip">
-        <h1>OUR TEAM<span>.</span></h1>
+        <h1 class="title">Our Team<span class="period">.</span></h1>
         <h4>They are big but still friendly.</h4>
       </div>
-      <div class="team1">
-        <img src="pix/joey.png" />
-        <h1>JOEY</h1>
-        <h4>Web Developer</h4>
-        <p>Coffee lover. Always on bike. iPhone fan.</p>
+      <div class="team-container">
+        <div class="team1">
+          <img src="images/joey.png" />
+          <div class="team-divider">
+            <h3 class="title">Joey</h3>
+            <h6>Web Developer</h6>
+            <p class="content">Coffee lover. Always on bike. iPhone fan.</p>
+          </div>
+        </div>
+        <div class="team1">
+          <img src="images/matt.png" />
+          <div class="team-divider">
+            <h3 class="title">Matt</h3>
+            <h6>Web Designer</h6>
+            <p class="content">MTB Biker. Photoshop Master. Loving Father</p>
+          </div>
+        </div>
+        <div class="team1">
+          <img src="images/mike.png" />
+          <div class="team-divider">
+            <h3 class="title">Mike</h3>
+            <h6>Copywriter</h6>
+            <p class="content">Drummer. Soup Lover. Beer Drinker. Cyclist.</p>
+          </div>
+        </div>
       </div>
-      <div class="team1">
-        <img src="pix/matt.png" />
-        <h1>MATT</h1>
-        <h4>Web Designer</h4>
-        <p>MTB Biker. Photoshop Master. Loving Father</p>
+      <div class="team-more">
+        <a href="#" class="more">more →</a>
       </div>
-      <div class="team1">
-        <img src="pix/mike.png" />
-        <h1>MIKE</h1>
-        <h4>Copywriter<br></h4>
-        <p>Drummer. Soup Lover. Beer Drinker. Cyclist.</p>
-      </div>
-      <button>MORE →</button>
     </div>
 
     <div class="footer"> <!--footer-->
       <div class="icons">
-        <a href="#" />
-          <img src="pix/twt.png" />
-        <a/>
-        <a href="#" />
-          <img src="pix/ig.png" />
-        <a/>
-        <a href="#" />
-          <img src="pix/fb.png" />
-        <a/>
-        <a href="#" />
-          <img src="pix/google.png" />
-        <a/>
+        <a href="#">
+          <img src="images/twt.png" />
+        </a>
+        <a href="#">
+          <img src="images/ig.png" />
+        </a>
+        <a href="#">
+          <img src="images/fb.png" />
+        </a>
+        <a href="#">
+          <img src="images/google.png" />
+        </a>
       </div>
-      <h1>© Freelancer - Designed by Angelo Jhann</h1>
+      <p>© Freelancer - Designed by Angelo Jhann</p>
     </div>
   </body>
 </html>

@@ -1,0 +1,261 @@
+body {
+  background-color: #fff;
+}
+.header{
+  width: 100%;
+  height: 1053px;
+}
+.bg_img{
+  width: 100%;
+  height: inherit;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% auto;
+  filter: grayscale(60%);
+}
+.topnav ul{
+  margin-left: 1000px;
+  padding-top: 40px;
+  font-size: 80px;
+}
+.topnav ul li{
+  color: #fff;
+  float: left;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #003568;
+}
+.nav_icons{
+  margin-top: 5px;
+  margin-left: 1650px;
+  letter-spacing: 10px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.quotes h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: #003568;
+  margin-left: 300px;
+  margin-top: 470px;
+}
+.quotes h1 span{
+  color: #fe0002;
+}
+.quotes h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #003568;
+  margin-left: 305px;
+  margin-top: 15px;
+}
+.btn{
+  border: 2px solid #fe0002;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 230px;
+  height: 65px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 305px;
+  margin-top: 50px;
+  padding-top: 17px;
+  background-color: #fe0002;
+}
+.btn p{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.snippets{
+  width: calc(100%-600px);
+  height: 168px;
+  padding: 0px 300px;
+  margin-left: 150px;
+}
+.snip1{
+  float: left;
+  width: 33.33%;
+  height: inherit;
+  margin: 70px auto;
+}
+.snip1 h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: #003568;
+}
+.snip1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #C8C8C8;
+}
+span{
+  color: #8B0000;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  color: #cc0000;
+  font-size: 15px;
+  border: 0px;
+  background: transparent;
+  margin-top: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+.portfolio{
+  width: 100%;
+  margin-left: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+
+.port1 h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  margin-left: 500px;
+  margin-top: 219px;
+  padding-top: 50px;
+  color: #003568;
+}
+.port1 h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  margin-top: 15px;
+  margin-left: 500px;
+  font-weight: bold;
+  color: #003568;
+}
+.port1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-left: 500px;
+  color: #A0A0A0;
+  line-height: 30px;
+}
+.portfolio button{
+    font-family: 'Montserrat', sans-serif;
+    color: #cc0000;
+    font-size: 15px;
+    border: 0px;
+    background: transparent;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 495px;
+}
+.team{
+  width: calc(100%-600px);
+  height: 168px;
+  padding: 0px 300px;
+  margin-left: 150px;
+}
+.team1{
+  float: left;
+  width: 33.33%;
+  height: inherit;
+  margin-top: 70px auto;
+}
+.team1 h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #003568;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.team1 h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #cc0000;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+.team1 p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #A0A0A0;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.joey{
+  float: left;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+}
+.matt{
+  float: left;
+  width: 100%;
+  margin-left: 100px;
+  height: inherit;
+  background-repeat: no-repeat;
+}
+.mike{
+  float: left;
+  width: 100%;
+  margin-left: 150px;
+  height: inherit;
+  background-repeat: no-repeat;
+}
+.descrip h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-top: 50px;
+  color: #003568;
+}
+.descrip h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #A0A0A0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.team button{
+    font-family: 'Montserrat', sans-serif;
+    color: #cc0000;
+    font-size: 15px;
+    border: 0px;
+    background: transparent;
+    margin-top: 50px;
+    margin-left: 670px;
+    width: 100%;
+}
+.footer {
+    width: calc(100%-600px);
+    height: 168px;
+    padding: 0px 300px;
+    margin-left: 150px;
+    margin-top: 300px;
+}
+.footer h1{
+    color: #A0A0A0;
+    opacity: 0.6;
+    font-weight: bolder;
+}
+.icons{
+  margin-top: 20px;
+  letter-spacing: 10px;
+  height: inherit;
+}
+.credits{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-left: 1000px;
+  font-size: 13px;
+  position: absolute;
+}

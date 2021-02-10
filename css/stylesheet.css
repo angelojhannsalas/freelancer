@@ -1,8 +1,26 @@
-h1, h4{
-    font-family: 'Montserrat', sans-serif;
-}
 body {
   background-color: #ffffff;
+}
+h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+h4{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    color: #cc0000;
+    border: 0px solid;
+    font-size: 15px;
+    background: transparent;
+}
+.btnperiod{
+  color: #8B0000;
 }
 .header{
   width: 100%;
@@ -55,15 +73,12 @@ body {
 .quotes h1{
   font-size: 80px;
   color: #042f3a;
-  font-family: 'Montserrat', sans-serif;
 }
 .quotes h1 span{
   color: #E32636;
 }
 .quotes h4{
-  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
-  font-weight: bold;
   color: #003568;
   padding-top: 25px;
   padding-bottom: 40px;
@@ -73,7 +88,6 @@ body {
   border-radius: 5px;
   transition-duration: 0.4s;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
   width: 230px;
   height: 80px;
   cursor: pointer;
@@ -98,22 +112,13 @@ body {
   color: #003568;
 }
 .snip1 p{
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin-top: 20px;
   color: #C8C8C8;
   padding: 0px 5px;
 }
-span{
-  color: #8B0000;
-}
 .snippets button {
-  font-family: 'Montserrat', sans-serif;
-  color: #cc0000;
-  font-size: 15px;
-  background: transparent;
   margin-top: 30px;
-  border: 0px solid;
 }
 button:hover{
   cursor: pointer;
@@ -136,15 +141,12 @@ button:hover{
   padding-top: 50px;
 }
 .port1 h4{
-  font-family: 'Open Sans', sans-serif;
   font-size: 23px;
-  font-weight: bold;
   color: #003568;
   float: left;
   padding-top: 10px;
 }
 .port1 p{
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: #A0A0A0;
   line-height: 30px;
@@ -152,11 +154,6 @@ button:hover{
   padding-top: 40px;
 }
 .portfolio button{
-    font-family: 'Montserrat', sans-serif;
-    color: #cc0000;
-    font-size: 15px;
-    border: 0px solid;
-    background: transparent;
     float: left;
     padding-top: 30px;
 }
@@ -180,15 +177,12 @@ button:hover{
   margin-left: 20px;
 }
 .team1 h4{
-  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  font-weight: bold;
   color: #cc0000;
   margin-top: 50px;
   margin-left: 150px;
 }
 .team1 p{
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #A0A0A0;
   margin-top: 20px;
@@ -200,18 +194,11 @@ button:hover{
   margin-bottom: 10px;
 }
 .descrip h4{
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  font-weight: bold;
   color: #A0A0A0;
   margin-bottom: 50px;
 }
 .team button{
-  font-family: 'Montserrat', sans-serif;
-  color: #cc0000;
-  font-size: 15px;
-  background: transparent;
-  border: 0px solid;
   float: right;
   margin-top: 100px;
 }

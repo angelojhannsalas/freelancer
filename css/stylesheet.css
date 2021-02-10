@@ -1,3 +1,6 @@
+h1, h4{
+    font-family: 'Montserrat', sans-serif;
+}
 body {
   background-color: #ffffff;
 }
@@ -50,10 +53,9 @@ body {
   padding-top: 500px;
 }
 .quotes h1{
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   color: #042f3a;
+  font-family: 'Montserrat', sans-serif;
 }
 .quotes h1 span{
   color: #E32636;
@@ -92,8 +94,6 @@ body {
   height: inherit;
 }
 .snip1 h1{
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   color: #003568;
 }
@@ -129,8 +129,6 @@ button:hover{
   margin-left: 500px;
 }
 .port1 h1{
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #003568;
   float: left;
@@ -175,8 +173,6 @@ button:hover{
   float: left;
 }
 .team1 h1{
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   color: #003568;
   float: left;
@@ -199,8 +195,6 @@ button:hover{
   margin-left: 150px;
 }
 .descrip h1{
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: #003568;
   margin-bottom: 10px;

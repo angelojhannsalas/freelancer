@@ -1,23 +1,39 @@
 body {
   background-color: #ffffff;
 }
-h1{
+h1 {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
-h4{
+h4 {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
-p{
+p {
   font-family: 'Open Sans', sans-serif;
 }
-button{
-    font-family: 'Montserrat', sans-serif;
-    color: #cc0000;
-    border: 0px solid;
-    font-size: 15px;
-    background: transparent;
+.button{
+  font-family: 'Montserrat', sans-serif;
+  color: #cc0000;
+  border: 0px solid;
+  font-size: 15px;
+  background: transparent;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.global-width{
+  width: 960px;
+}
+.global-h1-color{
+  color: #003568;
+}
+.global-p-color{
+  color: #A0A0A0;
 }
 .btnperiod{
   color: #8B0000;
@@ -26,11 +42,9 @@ button{
   width: 100%;
   height: 1375px;
   background-repeat: no-repeat;
-  position: relative;
   background-size: 100% auto;
 }
 .bg_img{
-  width: 1000px;
   height: inherit;
   margin: 0px auto;
 }
@@ -45,61 +59,52 @@ button{
   float: right;
 }
 .topnav ul{
-  font-size: 80px;
+  font-size: 5rem;
 }
 .topnav ul li{
   float: left;
   margin-left: 20px;
-  font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   cursor: pointer;
-  color: #003568;
 }
 .topnav ul li a{
-  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.06rem;
   color: #042f3a;
 }
+.nav_icons{
+    float: right;
+    padding-right: 10px;
+}
 .nav_icons a{
-  float: right;
   width: 50px;
   height: 50px;
-  text-decoration: none;
 }
 .quotes{
-  width: 960px;
   padding-top: 500px;
 }
 .quotes h1{
-  font-size: 80px;
+  font-size: 5rem;
   color: #042f3a;
 }
-.quotes h1 span{
-  color: #E32636;
-}
 .quotes h4{
-  font-size: 30px;
-  color: #003568;
+  text-transform: inherit;
+  font-size: 1.88rem;
   padding-top: 25px;
   padding-bottom: 40px;
 }
-.btn{
+.quotes a{
   border: 2px solid #fe0002;
   border-radius: 5px;
-  transition-duration: 0.4s;
-  text-align: center;
   width: 230px;
   height: 80px;
-  cursor: pointer;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight:  bold;
   color: #FFFFFF;
   background-color: #E32636;
-  margin: auto;
 }
 .snippets{
   margin: 80px auto;
-  width: 960px;
   height: 178px;
 }
 .snip1{
@@ -109,22 +114,15 @@ button{
 }
 .snip1 h1{
   font-size: 35px;
-  color: #003568;
 }
 .snip1 p{
-  font-size: 18px;
+  font-size: 1.25rem;
   margin-top: 20px;
   color: #C8C8C8;
   padding: 0px 5px;
-}
-.snippets button {
-  margin-top: 30px;
-}
-button:hover{
-  cursor: pointer;
+  margin-bottom: 50px;
 }
 .portfolio{
-  width: 960px;
   height: 350px;
   background-repeat: no-repeat;
   margin: 100px auto;
@@ -134,31 +132,28 @@ button:hover{
   margin-left: 500px;
 }
 .port1 h1{
-  font-size: 50px;
-  color: #003568;
+  font-size: 3.13rem;
   float: left;
   margin-right: 50px;
   padding-top: 50px;
 }
 .port1 h4{
-  font-size: 23px;
-  color: #003568;
+  font-size: 1.44rem;
   float: left;
   padding-top: 10px;
+  text-transform: inherit;
 }
 .port1 p{
-  font-size: 20px;
-  color: #A0A0A0;
+  font-size: 1.25rem;
   line-height: 30px;
   float: left;
   padding-top: 40px;
 }
-.portfolio button{
-    float: left;
-    padding-top: 30px;
+.portfolio a{
+  float: left;
+  padding-top: 30px;
 }
 .team{
-  width: 960px;
   height: 275px;
   margin: 0px auto;
 }
@@ -170,35 +165,33 @@ button:hover{
   float: left;
 }
 .team1 h1{
-  font-size: 25px;
-  color: #003568;
+  font-size: 1.56rem;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
 }
 .team1 h4{
-  font-size: 15px;
+  font-size: 0.94rem;
   color: #cc0000;
   margin-top: 50px;
   margin-left: 150px;
+  text-transform: inherit;
 }
 .team1 p{
-  font-size: 18px;
-  color: #A0A0A0;
+  font-size: 1.13rem;
   margin-top: 20px;
   margin-left: 150px;
 }
 .descrip h1{
-  font-size: 40px;
-  color: #003568;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 .descrip h4{
-  font-size: 20px;
-  color: #A0A0A0;
+  font-size: 1.25rem;
   margin-bottom: 50px;
+  text-transform: inherit;
 }
-.team button{
+.team a{
   float: right;
   margin-top: 100px;
 }
@@ -207,23 +200,17 @@ button:hover{
   opacity: 0.2;
 }
 .footer {
-    width: 960px;
-    height: 10px;
-    margin: 150px auto;
+  height: 10px;
+  margin: 150px auto;
 }
 .footer h1{
-    float: right;
-    color: #A0A0A0;
-    opacity: 0.6;
-    font-weight: bolder;
-    font-family: 'Open Sans', sans-serif;
+  float: right;
+  opacity: 0.6;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
 }
 .icons{
   margin: 30px auto;
   letter-spacing: 10px;
   height: 20px;
-  text-decoration: none;
-}
-.icons a{
-  text-decoration: none;
 }
